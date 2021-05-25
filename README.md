@@ -23,8 +23,8 @@
 
 ### Association
 
-- belongs_to :user
-- has_many   :comments
+- belongs_to  :user
+- has_many    :comments
 
 ## commentsテーブル
 | Column             | Type       | Option                         |
@@ -35,5 +35,5 @@
 
 ### Association
 
-- belongs_to :user
-- belongs_to :tweet
+- belongs_to  :user
+- belongs_to  :tweet
